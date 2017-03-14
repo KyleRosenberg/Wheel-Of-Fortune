@@ -1,0 +1,12 @@
+C:\Users\Kyle\documents\visual studio 2010\Projects\WheelOfFortune\WheelOfFortune\bin\Debug\WheelOfFortune.exe
+C:\Users\Kyle\documents\visual studio 2010\Projects\WheelOfFortune\WheelOfFortune\bin\Debug\WheelOfFortune.pdb
+C:\Users\Kyle\documents\visual studio 2010\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.Form1.resources
+C:\Users\Kyle\documents\visual studio 2010\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.Properties.Resources.resources
+C:\Users\Kyle\documents\visual studio 2010\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.csproj.GenerateResource.Cache
+C:\Users\Kyle\documents\visual studio 2010\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.exe
+C:\Users\Kyle\documents\visual studio 2010\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.pdb
+C:\Users\Kyle\documents\visual studio 2010\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.exe
+C:\Users\Kyle\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.pdb
+D:\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.exe
+D:\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.pdb
