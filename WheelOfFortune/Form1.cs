@@ -486,6 +486,7 @@ namespace WheelOfFortune
             fillTextBoxArray();
             generatePhrase(number.Next(phrases.Count));
             setTextBoxes();
+            fixTextBoxes();
             timer3.Enabled = true;
         }
 
@@ -562,10 +563,10 @@ namespace WheelOfFortune
                     //MessageBox.Show(textBoxes[lineNum][i].Tag.ToString());
                 }
                 boxstart = i+1;
-                if (tempphrase.IndexOf(" ") == -1)
+                if (tempphrase.IndexOf(" ") == -1 || end+1>=tempphrase.Length)
                 {
                     going = false;
-                    //return;
+                    break;
                 }
                 int ind = end + 1;
                 int leng = tempphrase.Length - (end+1);
@@ -581,6 +582,40 @@ namespace WheelOfFortune
                         boxstart = 0;
                     } 
                     else return; 
+                }
+            }
+        }
+
+        private void fixTextBoxes()
+        {
+            for (int i = 0; i<4; i++)
+            {
+                string linetext = "";
+                for (int j = 0; j<textBoxes[i].Length; j++)
+                {
+                    try {
+                        linetext += textBoxes[i][j].Tag.ToString();
+                    }catch(Exception e){
+                        linetext += " ";
+                    }
+                    textBoxes[i][j].Text = "";
+                    textBoxes[i][j].Tag = null;
+                    textBoxes[i][j].Visible = false;
+                }
+                linetext = linetext.Trim();
+                int startBox = (textBoxes[i].Length - linetext.Length) / 2;
+                for (int j = startBox; j < linetext.Length+startBox; j++)
+                {
+                    string charat = linetext.Substring(j-startBox, 1);
+                    if (charat != " ")
+                    {
+                        if (Char.IsLetter(Char.Parse(charat)))
+                            textBoxes[i][j].Text = "";
+                        else
+                            textBoxes[i][j].Text = charat;
+                        textBoxes[i][j].Tag = charat.ToUpper();
+                        textBoxes[i][j].Visible = true;
+                    }
                 }
             }
         }
@@ -878,6 +913,7 @@ namespace WheelOfFortune
             currentPhrase = number.Next(phrases.Count);
             generatePhrase(currentPhrase);
             setTextBoxes();
+            fixTextBoxes();
             guessedLetters.Text = "";
             GuessedLetters.Clear();
             buyVowel.Visible = true;

@@ -10,3 +10,9 @@ C:\Users\Kyle\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortun
 C:\Users\Kyle\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.pdb
 D:\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.exe
 D:\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.pdb
+D:\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\bin\Debug\WheelOfFortune.exe
+D:\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\bin\Debug\WheelOfFortune.pdb
+D:\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.Form1.resources
+D:\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.Properties.Resources.resources
+D:\Documents\Visual Studio 2012\Projects\WheelOfFortune\WheelOfFortune\obj\x86\Debug\WheelOfFortune.csproj.GenerateResource.Cache
