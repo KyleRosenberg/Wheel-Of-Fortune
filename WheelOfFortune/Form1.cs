@@ -542,6 +542,15 @@ namespace WheelOfFortune
 
         private void setTextBoxes()
         {
+            for (int i = 0; i<textBoxes.Length; i++)
+            {
+                for (int j = 0; j<textBoxes[i].Length; j++)
+                {
+                    textBoxes[i][j].Visible = false;
+                    textBoxes[i][j].Text = "";
+                    textBoxes[i][j].Tag = null;
+                }
+            }
             String tempphrase = phrases[currentPhrase];
             int boxstart = 0;
             int lineNum = 0;
